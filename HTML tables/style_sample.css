@@ -1,0 +1,29 @@
+table {
+	width: 400px;
+}
+/* if you wanted to left alighn the caption, you would type th, caption*/
+th {
+	text-align: left;
+}
+
+table, th, td {
+	/* create a black border around the items in the list*/
+	border: 1px solid #000;
+/* collapse = no space between the borders*/	
+	border-collapse: collapse;
+	
+}
+
+/* use padding so the characters do not look so cramped*/
+
+th, td {
+	padding: 10px;
+}
+
+/* changing the colors of the rows
+you can set a color for even rows
+*/
+
+tr:nth-child(odd) {
+	background-color: #D5F5E3;
+}
