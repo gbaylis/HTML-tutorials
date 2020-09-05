@@ -12,10 +12,10 @@
 <!-- 1st row, text line, ask for name  -->
   <!-- label id and input for, always match -->
   <label for="First Name"> First name: </label>
-  <input name="first" id="First" type="text" placeholder="First Name" required> 
+  <input name="first" id="first" type="text" placeholder="First Name" required> 
   
   <label for="Last Name"> Last Name: </label>
-  <input name="last" id="ast" type="text" placeholder="Last Name" required>
+  <input name="last" id="last" type="text" placeholder="Last Name" required>
   
 </form> 
     
@@ -43,25 +43,25 @@
  
   <form>
   <label for="birthday"> Birthday: </label> 
-<select name="month">
+                <select name="month">
 		<option> Month </option>
 		<option> January </option>
 		<option> February </option>
 		<option> March </option>
-  	<option> April </option>
+  	        <option> April </option>
 		<option> May </option>
 		<option> June </option>
-  	<option> July </option>
+  	        <option> July </option>
 		<option> August </option>
 		<option> September </option>
-  	<option> October </option>
+  	        <option> October </option>
 		<option> November </option>
 		<option> December </option>
 		
 	</select>	
     
     <!-- Day -->
-    <select name="day">
+                <select name="day">
 		<option> Day </option>
 		<option> 1 </option>
 		<option> 2 </option>
@@ -100,7 +100,7 @@
 </select>	
     
  <!-- year -->
-  <select name="year">
+                <select name="year">
 		<option> Year </option>
 		<option> 1980 </option>
 		<option> 1981 </option>
