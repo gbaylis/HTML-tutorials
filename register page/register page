@@ -10,7 +10,7 @@
     
 <form>
 <!-- 1st row, text line, ask for name  -->
-  <!-- label id and input for, always match -->
+
   <label for="First Name"> First name: </label>
   <input name="first" id="first" type="text" placeholder="First Name" required> 
   
