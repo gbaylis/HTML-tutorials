@@ -12,10 +12,10 @@
 <!-- 1st row, text line, ask for name  -->
   <!-- label id and input for, always match -->
   <label for="First Name"> First name: </label>
-  <input name="first id="First Name:" type="text" placeholder="First Name" required> 
+  <input name="first" id="First" type="text" placeholder="First Name" required> 
   
   <label for="Last Name"> Last Name: </label>
-  <input name="last id="Last Name:" type="text" placeholder="Last Name" required>
+  <input name="last" id="ast" type="text" placeholder="Last Name" required>
   
 </form> 
     
