@@ -1,67 +1,63 @@
-<!-- a basic register page, how to use forms, buttons, drop down menus and text input -->
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> Register </title>
-  </head>
-  <body>
-    
-    <h1> Register </h1>
-    
-<form>
-<!-- 1st row, text line, ask for name  -->
-  <!-- label id and input for, always match -->
-  <label for="First Name"> First name: </label>
-  <input name ="first" id="First Name:" type="text" placeholder="John" required> 
-  
-  <label for="Last Name"> Last Name: </label>
-  <input name = "last" id="Last Name:" type="text" placeholder="Smith" required>
-  
-</form> 
-    
-   <!-- 2nd row, radio button, gender, a new form tag  -->
- 
-  <form>
-    <label for="male"> Male: </label>
-    <input id="male" type="radio"> 
-    
-    <label for="female"> Female: </label>
-    <input id="female" type="radio"> 
-    
-     <label for="other"> Other: </label>
-    <input id="other" type="radio"> 
- </form>  
-    
-    <!-- 3rd row, text, -email  -->
- 
-  <form>
-    <label for="e-mail"> E-mail: </label>
-    <input id="e-mail" type="email" placeholder="email" required> 
- </form>  
-    
-      <!-- 4th row, drop down menu, birthday  -->
- 
-  <form>
-  <label for="birthday"> Birthday: </label> 
-<select name="month">
-		<option> Month </option>
-		<option> January </option>
-		<option> February </option>
-		<option> March </option>
-  	    <option> April </option>
-		<option> May </option>
-		<option> June </option>
-  	    <option> July </option>
-		<option> August </option>
-		<option> September </option>
-  	    <option> October </option>
-		<option> November </option>
-		<option> December </option>
+<head>
+	<title> Register </title>
+</head>
+<body>
+	<h1> Register </h1>
+	
+	<!-- text boxes for name -->
+	<form>
+		<label for="first">First Name: </label>
+		<input name="first" id="first" type="text" placeholder="John or Jane" required>
+		<label for="last">Last Name: </label>
+		<input name="last" id="last" type="text" placeholder="Smith" required>
 		
-	</select>	
-    
-    <!-- Day -->
+	<!-- 1st div tag radio buttons for gender -->	
+	<div>
+		<label for="male">Male</label>
+		<input id="male" name="gender" type="radio" value="male">
+		
+		<label for="female">Female</label>
+		<input id="female" name="gender" type="radio" value="female">
+		
+		<label for="other">other</label>
+		<input id="other" name="gender" type="radio" value="other">
+	</div>	
+	
+	<!-- 2nd div tag, e-mail -->
+	<div>
+		<label>
+			Email:
+		     <input name="e-mail" type="email" placeholder="E-mail:" required>
+	    </label>
+	
+		<label>
+				Password:
+			<input name="password" type="password" placeholder="password" required pattern=".{5}" required title="minimum 5 characters">
+		
+		 </label>
+	</div>	
+	
+	<div>
+	<label>
+		Birthday:
+		<select name="month"> <!-- months -->
+		    <option>Jan </option>
+			<option>Feb</option>
+			<option>March</option>
+		    <option>Apr</option>
+			<option>May</option>
+			<option>June</option>
+			<option>July</option>
+			<option>Aug</option>
+			<option>Sept</option>
+		    <option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		
+		
     <select name="day">
 		<option> Day </option>
 		<option> 1 </option>
@@ -97,65 +93,62 @@
 		<option> 29 </option>
 		<option> 30 </option>
   	    <option> 31 </option>
+     </select>
 		
-</select>	
-    
- <!-- year -->
-  <select name="year">
-		<option> Year </option>
-		<option> 1980 </option>
-		<option> 1981 </option>
-		<option> 1982 </option>
-  	    <option> 1983 </option>
-		<option> 1984 </option>
-		<option> 1985 </option>
-  	    <option> 1986 </option>
-		<option> 1987 </option>
-		<option> 1988 </option>
-  	    <option> 1989 </option>
-		<option> 1990 </option>
+		 <!-- year -->
+		  <select name="year">
+				<option> Year </option>
+				<option> 1980 </option>
+				<option> 1981 </option>
+				<option> 1982 </option>
+		  	    <option> 1983 </option>
+				<option> 1984 </option>
+				<option> 1985 </option>
+		  	    <option> 1986 </option>
+				<option> 1987 </option>
+				<option> 1988 </option>
+		  	    <option> 1989 </option>
+				<option> 1990 </option>
 		
-		<option> 1991 </option>
-        <option> 1992 </option>
-		<option> 1993 </option>
-		<option> 1994 </option>
-  	    <option> 1995 </option>
-		<option> 1996 </option>
-		<option> 1997 </option>
-  	    <option> 1998 </option>
-		<option> 1999 </option>
-		<option> 2000 </option>
+				<option> 1991 </option>
+		        <option> 1992 </option>
+				<option> 1993 </option>
+				<option> 1994 </option>
+		  	    <option> 1995 </option>
+				<option> 1996 </option>
+				<option> 1997 </option>
+		  	    <option> 1998 </option>
+				<option> 1999 </option>
+				<option> 2000 </option>
 		
-  	    <option> 2001 </option>
-		<option> 2002 </option>
-		<option> 2003 </option>
-        <option> 2004 </option>
-		<option> 2005 </option>
-		<option> 2006 </option>
-  	    <option> 2007 </option>
-		<option> 2008 </option>
-		<option> 2009 </option>
-  	    <option> 2010 </option>
+		  	    <option> 2001 </option>
+				<option> 2002 </option>
+				<option> 2003 </option>
+		        <option> 2004 </option>
+				<option> 2005 </option>
+				<option> 2006 </option>
+		  	    <option> 2007 </option>
+				<option> 2008 </option>
+				<option> 2009 </option>
+		  	    <option> 2010 </option>
 		
-</select>	  
-    
- </form>  
-    
- <!-- checkbox -->  
-    
-    <form>
-      
-  <label for="condition"> I agree to the terms and conditions: </label>
-	<input name="condition" id="condition" type="checkbox"
-	value="cond">
-      
-    </form>  
+		</select>
+	</label>	
+		
+	</div>	
 	
-	<!-- a submit button -->
-   <form> 
- <button> Submit </button>   
-   </form>  
+	<div>
+		<label for="agreed">I agree to the terms and conditions, check box  </label>
+		<input id="agreed" name="agreed" type="checkbox">
+	</div>	
+	
+	<!-- submit button -->
+	<input type="submit">	
+		
+		
+	</form>
+	
+</body>
+</html>	
 
-  </body>
-</html>
   
