@@ -1,0 +1,19 @@
+Body{
+  background: F8E6C3;
+}
+
+#blue {
+  color: blue;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#red_border {
+  border: 5px solid red;
+}
+
+#font {
+  font-family: lucida handwriting;
+}
