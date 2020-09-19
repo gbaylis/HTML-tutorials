@@ -52,9 +52,9 @@ example of a navigation bar, with a drop down button
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#">Action</a>
-      <a class="dropdown-item" href="#">Another action</a>
-      <a class="dropdown-item" href="#">Something else here</a>
+      <a class="dropdown-item" href="#"> merchandise page </a>
+      <a class="dropdown-item" href="#"> directions to the store </a>
+      <a class="dropdown-item" href="#"> send us an E-mail! </a>
       <div class="dropdown-divider"></div>
       <a class="dropdown-item" href="#">Separated link</a>
     </div>
