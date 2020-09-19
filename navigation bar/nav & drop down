@@ -1,0 +1,72 @@
+<!-- index.html
+example of a navigation bar, with a drop down button
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Bootstrap Navbars </title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.
+	css">
+
+ </head>
+ <body>
+	 
+	 <!-- open div --><div class="container"> 
+		 
+<!-- (end of page) open nav -->	 <nav class="navbar navbar-default">
+	 
+
+<div class="navbar-header">
+	 
+	
+	<a href="#" class="navbar-brand"> Coffee Shop </a>
+	 
+<!-- close div -->	 </div>
+		
+<!-- open ul -->	<ul class="nav navbar-nav">  <!-- on the left, as a default -->
+	
+<li> <a href="#">About </a> </li>	
+
+<li> <a href="#">Contact </a> </li>
+	
+<!-- close ul -->	 </ul>
+
+<!-- open ul --> <ul class="nav navbar-nav navbar-right">	
+<li> <a href="#">Sign Up </a> </li>
+<li> <a href="#">Log in </a> </li>
+   
+   
+
+
+<!-- close ul --> </ul>
+
+<!-- close div class -->  </div>	 
+		
+<!-- (top of page) close nav -->	  </nav>
+   
+   <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Disabled</a>
+  </li>
+</ul>
+   
+   
+ </body>
+ </html>
